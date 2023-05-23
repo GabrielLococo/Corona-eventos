@@ -15,8 +15,217 @@ font-family: 'Beau Rivage', cursive;
 
 colores 
 #e6e6e6;
+#D9D9D9
 */
 
+
+
+
+
+/*VISTA MOBIL____________________________________________**/
+
+
+.mainIndex {
+    background-color: #EAE4E4;
+}
+
+nav {
+    font-family: "Barlow condensed"; 
+}
+nav img {
+    width: 70px;
+    height: 70px; 
+}
+
+.banner1 {
+    height: 50rem;
+    background-image:url(../assets/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.banner2 {
+    height: 10rem;
+    background-image:url(../assets/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    display: flex;
+}
+.banner2 p {
+    font-family: 'Beau Rivage';
+    color: #e6e6e6;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.banner3 {
+    height: 10rem;
+    background-image:url(../assets/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    display: flex;
+}
+.banner3 p {
+    font-family: 'Beau Rivage';
+    font-size: 2rem;
+    color: #e6e6e6;
+    margin: auto;
+}
+
+.tituloGridEspacios{
+    font-family: 'beau Rivage';
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/*INDEX GRID ESPACIOS*/
+
+.gridEspacios { 
+display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 30rem 30rem 30rem 30rem;
+    grid-template-areas: 
+    "espOlivos"
+    "espBetun"
+    "espPalace"
+    "espResort";
+    justify-content: center;
+}
+
+.cursiva {
+    font-family: 'beau Rivage';
+    font-size: 1.8rem;
+    word-spacing: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.gridImg {
+    display: flex;
+    justify-content: center;
+   
+}
+.gridImg img:first-child {
+    height: 15rem;
+    width: 28rem;
+}
+.gridImg img:nth-child(2) {
+    height: 15rem;
+    width: 10rem;
+}
+
+.gridEspacios p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1.5rem;
+}
+.gridEspacios a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    background-color:#D9D9D9;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 10rem;
+}
+.gridEspacios a:hover {
+    background-color: grey;
+    color: white;
+}
+ 
+.banner4 {
+    height: 10rem;
+    background-image:url(../assets/banner4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    
+}
+.banner4 h2{
+    font-family:'beau Rivage';
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    color: white;
+}
+.banner4 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.banner5 {
+    background-color: #b8b0b0e7;
+    height: 20rem;
+}
+.banner5 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 2rem ;
+    padding-bottom: 0.5rem;
+}
+
+.banner5 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.banner5 a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(182, 110, 122);
+    padding: 0.2rem;
+    border-radius: 1rem;
+    background-color:#D9D9D9;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 10rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/* footer*/
+
+footer {
+    width: 100%;
+    background-color: grey;
+    height: 7rem;
+    display: inline-block
+}
+footer img {
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    margin: auto;
+}
+footer p {
+    text-align: center;
+    font-family: 'beau Rivage';
+    font-size: 1rem;
+    word-spacing: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+/*tablet & desktop____________________________________________*/
+
+@media (min-width:768px) { 
+
+.mainIndex {
+    background-color: #EAE4E4;
+}
 
 nav {
     font-family: "Barlow condensed"; 
@@ -64,4 +273,139 @@ nav img {
     letter-spacing: 0.3rem;
     color: #e6e6e6;
     margin: auto;
+}
+
+.tituloGridEspacios{
+    font-family: 'beau Rivage';
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 5rem;
+}
+
+
+/*INDEX GRID ESPACIOS*/
+
+.gridEspacios { 
+display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 50rem 50rem 50rem 50rem;
+    grid-template-areas: 
+    "espOlivos"
+    "espBetun"
+    "espPalace"
+    "espResort";
+    gap: 5rem;
+    justify-content: center;
+    
+    
+}
+
+
+.cursiva {
+    font-family: 'beau Rivage';
+    font-size: 3rem;
+    word-spacing: 1rem;
+    margin-bottom: 2rem;
+}
+.gridImg {
+    display: flex;
+    justify-content: center;
+   
+}
+.gridImg img:first-child {
+    height: 30rem;
+    width: 43rem;
+}
+.gridImg img:nth-child(2) {
+    height: 30rem;
+    width: 20rem;
+}
+
+.gridEspacios p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 500;
+    margin: 2rem;
+}
+.gridEspacios a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    background-color:#D9D9D9;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 15rem;
+}
+.gridEspacios a:hover {
+    background-color: grey;
+    color: white;
+}
+ 
+.banner4 {
+    height: 15rem;
+}
+.banner4 h2{
+    font-size: 4rem;
+}
+.banner4 p {
+    font-size: 1.4rem;
+}
+
+.banner5 {
+    height: 30rem;
+}
+.banner5 h3{
+    font-size: 3.5rem;
+    padding-top: 4rem ;
+    padding-bottom: 1rem;
+}
+
+.banner5 p{
+    font-size: 1.5rem;  
+    padding-bottom: 1rem;
+}
+
+.banner5 a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(182, 110, 122);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color:#D9D9D9;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 25rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* footer*/
+
+footer {
+    width: 100%;
+    background-color: grey;
+    height: 15rem;
+    display: inline-block
+}
+footer img {
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    margin: auto;
+}
+footer p {
+    text-align: center;
+    font-family: 'beau Rivage';
+    font-size: 3rem;
+    word-spacing: 1rem;
+    margin-bottom: 2rem;
+}
+
 }
