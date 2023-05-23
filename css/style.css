@@ -181,7 +181,7 @@ display: grid;
 }
 
 .banner5 a {
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-decoration: none;
     color: rgb(182, 110, 122);
     padding: 0.2rem;
@@ -190,7 +190,7 @@ display: grid;
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 10rem;
+    width: 12rem;
     margin-bottom: 1rem;
 }
 
